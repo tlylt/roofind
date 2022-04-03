@@ -212,11 +212,17 @@ The second wireframe is a slight modification of W1. The wireframe screens can b
 
 
 ## Interactive Prototypes
+With all the feedback collected, I have created a prototype of the application in Figma to put all the elements into place.
+I have also made some noticeable modifications that I would like to highhlight.
+
+#### Shift in focus
+Initially, I have included a set of screens that are meant for the housing agents/landlords who would like to post room details. I decided to remove them in the prototype to focus on 
+the user who is looking for a room. However, some user intractions are still in place to make the user flow complete. This includes the following:
+- A user will be able to indiciate whether he/she is currently "looking for a room" or "renting a room". This will subsequently determine the application interface (which the housing agent/landlord view has been omitted).
 
 <tabs>
   <tab header="Prototype 1">
 
-With all the feedback collected, I have created a prototype of the application in Figma to put all the elements into place.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FqWGltpJxENsU5GSw30wO0r%2FRooFind-P1%3Fpage-id%3D1%253A1250%26node-id%3D1%253A4546%26viewport%3D241%252C48%252C0.24%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A4546" allowfullscreen></iframe>
 

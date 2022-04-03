@@ -1,0 +1,26 @@
+{
+  "baseUrl": "/roofind",
+  "titlePrefix": "",
+  "faviconPath": "favicon.ico",
+  "ignore": [
+    "_markbind/layouts/*",
+    "_markbind/logs/*",
+    "_site/*",
+    "site.json",
+    "*.md",
+    "*.njk",
+    ".git/*"
+  ],
+  "pages": [
+    {
+      "src": "index.md",
+      "title": "RooFind: One-stop Room Finding Solution"
+    },
+    {
+      "glob": ["**/index.md", "**/*.md"]
+    }
+  ],
+  "deploy": {
+    "message": "Site Update."
+  }
+}

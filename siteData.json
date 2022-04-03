@@ -1,0 +1,31 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "index.md",
+      "title": "RooFind: One-stop Room Finding Solution",
+      "headings": {
+        "first-time-user": "First time user",
+        "second-long-time-user": "Second/long time user",
+        "task-based": "Task based",
+        "problem-statement": "Problem Statement",
+        "motivation": "Motivation",
+        "user-requirements-gathering": "User Requirements Gathering",
+        "user-persona": "User Persona",
+        "user-interview": "User Interview",
+        "user-findings": "User Findings",
+        "pain-points": "Pain points",
+        "some-exising-applications-tools-for-finding-room": "Some exising applications/tools for finding room",
+        "most-wanted-features": "Most wanted features",
+        "primary-user-goals": "Primary User Goals",
+        "prototyping": "Prototyping",
+        "search-parameters": "Search parameters",
+        "user-flows": "User Flows",
+        "wireframes": "Wireframes",
+        "interactive-prototypes": "Interactive Prototypes",
+        "conclusion": "Conclusion"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}

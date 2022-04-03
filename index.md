@@ -215,14 +215,52 @@ The second wireframe is a slight modification of W1. The wireframe screens can b
 With all the feedback collected, I have created a prototype of the application in Figma to put all the elements into place.
 I have also made some noticeable modifications that I would like to highhlight.
 
-#### Shift in focus
+### Shift in focus
 Initially, I have included a set of screens that are meant for the housing agents/landlords who would like to post room details. I decided to remove them in the prototype to focus on 
 the user who is looking for a room. However, some user intractions are still in place to make the user flow complete. This includes the following:
-- A user will be able to indiciate whether he/she is currently "looking for a room" or "renting a room". This will subsequently determine the application interface (which the housing agent/landlord view has been omitted).
+- A user will be able to indiciate whether he/she is currently "looking for a room" or "renting a room". This will subsequently determine the application interface they see (which the housing agent/landlord view has been omitted).
+- A user will be able to chat with the housing agent/landlord.
+
+### Updates in functionalities
+#### Comparison feature
+Initially, I was under the impression that it would be extremely helpful to have a table like comparison tool to help users compare the rooms. This draws inspiration from comparison/benchmarking websites for PC components. However, as I explore the UI for the search screen, I feel that a separate comparison is
+somewhat redundant. This is because when the users are searching for a room, they are in fact performing comparison, with the help of filters and sorting criteria. Having a separate comparison tool is less useful because the additional steps required to pick and choose the rooms, and also unpick and go back to room exploration.With further feedback from user testing, I have decided to remove the comparison feature.
+
+#### Progress feature
+Initially, I included a fancy progress page to show the user's journey in the room finding process. This feature while able to give user an indication of where they are in this process, it was not very meaningful. Instead of removing it, I have decided to repurpose it into a help page that provide users with the tools and resources based on their current stage.
+- If they are just browing: a price indicator graph is provided for user to get a general idea of the price range of the rooms. They are able to tweak the parameters so that the price shown reflects the room requirements.
+- If they are now in talks with the housing agent/landlord: a number of helpful materials are provided to help them understand the process and what to take note of.
+- If they are now ready to secure their room: a number of legal materials/contract samples are provided to help them understand the process and agreement.
+
+#### Chat feature
+Initially, I have the impression that users may want to use native chat applications such as "WhatsAPP", "Telegram", or even direct message, to communicate with the housing agent/landlord. However, I discovered that most people would like to have all the functionality, including the chat feature, in the application. This is so that once they are settled with all the information they need, they can simply proceed offline to finish the process. Thus, I have added a chat screen such
+that users can talk to the agent/landlord directly.
+
+#### Room posting/details
+Initially, the rectangluar room tile used in the home page and the search page was not very comprehensive and space efficient. With the amount of information that users may want to immediately acquire, I have decided to re-organize the room tile (and the room details page) to use descriptive icons and bold text to make the information more readable.
+- Now, the user can easily see if a posting consists of how many rooms (and toilets), whether it is posted by an agent or a landlard etc, all without entering the room details page.
+
+#### Miscellaneous
+I have also updated some minor details in the application.
+For example, to allow users to easily save and chat, I have included the "heart" and "chat" icons for each room tile such that the navigation is very convenient.
+
+### Prototype 1 & 2
+
+Prototype 1 is the first version of the interactive application. It addressed some of the points mentioned above and was then used for user testing.
+
+Prototype 2 is the final version of the interactive application. It covers additional points/improvements discovered during the testing of prototype 1.
+
+In addition, I have reviewed the Design principles (Shneiderman’s 8 Golden rules, in particualr) and make adjustments to the application to make it more user friendly. For example:
+- 7. Keep users in control
+  - The bottom navigation bar is almost always present to allow users to navigate to the five important screens in the application
+  - Backward navigation is provided in some cases to provide a way to navigate back from inner context to the main screens
+  - Tabs have been used to allow for lateral navigation
+- 8. Reduce short-term memory load
+  - The rectangular tile representing the posting information is designed to keep the essential information of a room, without minimal cluttering. Important information such as the pricing, room type and location are included while less important information is hidden and discoverable when user clicks into the posting.
+
 
 <tabs>
   <tab header="Prototype 1">
-
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FqWGltpJxENsU5GSw30wO0r%2FRooFind-P1%3Fpage-id%3D1%253A1250%26node-id%3D1%253A4546%26viewport%3D241%252C48%252C0.24%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A4546" allowfullscreen></iframe>
 
@@ -234,3 +272,9 @@ the user who is looking for a room. However, some user intractions are still in 
 # Conclusion
 
 In summary, this exploratory design exercise has provided me with a good opportunity to practice interaction design.
+
+I learned about:
+- How to use Figma to create wireframes and prototypes
+- How to gather requirements and define user tasks
+- How to conduct user testing and interpret the results
+- How to apply design principles to create a user-friendly application

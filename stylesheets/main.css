@@ -140,3 +140,6 @@ mark {
         display: none;
     }
 }
+.navbar {
+    background-color: #2C383F !important;
+}

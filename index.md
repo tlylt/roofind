@@ -291,6 +291,10 @@ In addition, I have reviewed the Design principles (Shneiderman’s 8 Golden rul
 
 The complete interactive prototype is available [here](https://www.figma.com/proto/zziC64max9cgoYneBy6LXy/RooFind-Final?page-id=1%3A1250&node-id=1%3A4546&viewport=241%2C48%2C0.24&scaling=scale-down&starting-point-node-id=1%3A4546) (also embeded in the above second tab). The Figma design file is available [here](https://www.figma.com/file/zziC64max9cgoYneBy6LXy/RooFind-Final?node-id=1%3A1250).
 
+Credits:
+- Icons from [Feather icons](https://feathericons.com/), and Figma plugin [iconify](https://github.com/iconify/iconify-figma)
+- Stock images from [Unsplash](https://unsplash.com/), and Figma plugin [Unsplash](https://liammartens.com/?utm_source=unsplash-figma&utm_medium=referral)
+
 In summary, this exploratory design exercise has provided me with a good opportunity to practice interaction design.
 
 I learned about:

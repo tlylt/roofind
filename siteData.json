@@ -2,6 +2,12 @@
   "enableSearch": true,
   "pages": [
     {
+      "src": "gallery.md",
+      "title": "RooFind: One-stop Room Finding Solution",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
       "src": "index.md",
       "title": "RooFind: One-stop Room Finding Solution",
       "headings": {

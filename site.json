@@ -17,6 +17,10 @@
       "title": "RooFind: One-stop Room Finding Solution"
     },
     {
+      "src": "gallery.md",
+      "title": "RooFind: One-stop Room Finding Solution"
+    },
+    {
       "glob": ["**/index.md", "**/*.md"],
       "globExclude": ["README.md"]
     }

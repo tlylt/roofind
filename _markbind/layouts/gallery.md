@@ -16,18 +16,6 @@
 </header>
 
 <div id="flex-body">
-  <nav id="site-nav" class="fixed-header-padding">
-    <div class="nav-component slim-scroll">
-      <site-nav>
-* [Home]({{ baseUrl }}/index.html)
-* [Problem Statement]({{baseUrl}}/index.html#problem-statement)
-* [Motivation]({{baseUrl}}/index.html#motivation)
-* [User Requirements Gathering]({{baseUrl}}/index.html#user-requirements-gathering)
-* [Prototyping]({{baseUrl}}/index.html#prototyping)
-* [Conclusion]({{baseUrl}}/index.html#conclusion)
-      </site-nav>
-    </div>
-  </nav>
   <div id="content-wrapper" class="fixed-header-padding">
     {{ content }}
   </div>

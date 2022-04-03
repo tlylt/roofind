@@ -17,7 +17,8 @@
       "title": "RooFind: One-stop Room Finding Solution"
     },
     {
-      "glob": ["**/index.md", "**/*.md"]
+      "glob": ["**/index.md", "**/*.md"],
+      "globExclude": ["README.md"]
     }
   ],
   "deploy": {

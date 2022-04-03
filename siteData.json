@@ -2,6 +2,14 @@
   "enableSearch": true,
   "pages": [
     {
+      "src": "README.md",
+      "title": "",
+      "headings": {
+        "roofind": "RooFind"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "index.md",
       "title": "RooFind: One-stop Room Finding Solution",
       "headings": {

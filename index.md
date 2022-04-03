@@ -25,6 +25,7 @@ I chose this task because I have been personally invovled (once in a while) in b
 
 # User Requirements Gathering
 
+## Primary User Group
 To begin with, I would like to define my target group of potential users to be:
 - living (or planning to live) in Singapore
 - looking for a room to rent both long-term or short-term
@@ -36,7 +37,7 @@ To begin with, I would like to define my target group of potential users to be:
 <pic src="roofind_persona.png" alt="User Persona" />
 
 ## User Interview
-Guiding questions to ask to identify problem and validate assumptions:
+To help prepare for initial rounds of user interview, I have listed some guiding questions below to identify problems and validate assumptions:
 - What are the tools and technologies that you use to find a room?
 - What are the some of the typical needs on the room you are looking for?
 - How long do you expect to take to find a room?
@@ -44,11 +45,13 @@ Guiding questions to ask to identify problem and validate assumptions:
 - What are your thoughts on the process of finding a room?
 
 ## User Findings
+
+I have summarized my findings from the initial interviews as follows.
 ### Pain points
-- Existing applications have too much advertisements that makes it difficult to look at the relevant information posted by home owners.
-- Not sure of the type and status of the other tenants in the flat (if any).
-- Want to know about the convenience of the flat (e.g. nearby shops, restaurants, etc.)
-- Want to know about the pricing and payment options.
+- Existing applications have too much advertisements that makes it difficult to look at the relevant information posted by home owners
+- Not sure of the type and status of the other tenants in the flat (if any)
+- Want to know about the convenience of the flat (e.g. nearby shops, restaurants, etc)
+- Want to know about the pricing and payment options
 
 ### Some exising applications/tools for finding room
 - propertyguru
@@ -58,7 +61,7 @@ Guiding questions to ask to identify problem and validate assumptions:
 ### Most wanted features
 - a way to bookmark rooms and organize them into lists
 - a way to check available and timing of room tours
-- a way to easily procure related services such as house moving, house cleaning, etc.
+- a way to easily procure related services such as house moving, house cleaning, etc
 
 ## Primary User Goals
 From the interviews and the initial research, the three primary user goals my product should achieve are:
@@ -67,7 +70,7 @@ From the interviews and the initial research, the three primary user goals my pr
 - Secure the most suitable room for the user
 
 # Prototyping
-During wireframing, I realized that there are some complexities that need to be addressed. In particular, the "search parameters", or the critical information about a room, can be quite complicated. Below I listed out a few of the key parameters that I would like to include in the search/room information display. To aid the design process, I also listed out some user flows that the application should support.
+During wireframing, I realized that there are some complexities that need to be addressed. In particular, the "search parameters", or the critical information about a room, can be quite complicated. Below I listed out a few of the key parameters that I would like to include in the search/room information display. To aid the design process, I also listed out some potential user flows that the application should support.
 
 ## Search parameters
 - Price
@@ -135,21 +138,24 @@ During wireframing, I realized that there are some complexities that need to be 
 
 "I want to quickly find rooms nearby because of an emergency need to move out"
 1. Download the app
-2. Click on browse as a visitor -> search screen
+2. Sign up & login to find rooms -> search screen
    1. Select filter: Rooms nearby, OR
    2. Search the postal code
 3. Browse the list of search results
-4. Tab on one of the rooms to see the details
+4. Tab on one of the rooms to see the details and chat with the landlord
 </panel>
 
 ## Wireframes
+Time for the real design work!
+
+In total, I have created two wireframes of the application in Figma. They are embedded below under "Wireframe 1 & Wireframe 2". In each tab, I have also included some discussion of the user testing(and the results) done.
 
 <tabs>
   <tab header="Wireframe 1">
 
-Time for the real design work! I have created a wireframe of the application in Figma and the very basic lofi prototype is viewable at this [link](https://www.figma.com/proto/jU0RMaV81UIymjc8D3qTu3/RooFind-W1?page-id=0%3A1&node-id=9%3A525&viewport=241%2C48%2C0.17&scaling=scale-down&starting-point-node-id=9%3A525). I have also embedded the wireframe below. Note that I did not link up all the buttons and the text fields as I intended to make this just enough for the very first round of user interviews.
+The very basic lofi prototype is viewable at this [link](https://www.figma.com/proto/jU0RMaV81UIymjc8D3qTu3/RooFind-W1?page-id=0%3A1&node-id=9%3A525&viewport=241%2C48%2C0.17&scaling=scale-down&starting-point-node-id=9%3A525). Note that I did not link up all the buttons and the text fields as I intended to make this just enough for the very first round of user interviews.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FjU0RMaV81UIymjc8D3qTu3%2FRooFind-W1%3Fpage-id%3D0%253A1%26node-id%3D9%253A525%26viewport%3D241%252C48%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D9%253A525" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="450" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FjU0RMaV81UIymjc8D3qTu3%2FRooFind-W1%3Fpage-id%3D0%253A1%26node-id%3D9%253A525%26viewport%3D241%252C48%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D9%253A525" allowfullscreen></iframe>
 
 With the basic wireframe W1, I decided to conduct a formative evaluation to ensure that the application is going towards the right direction. The first interview is done with a protential user over a Zoom meeting, in which she manipulated the prototype to achieve the task of finding a room. Below are some of the pointers taken during the testing.
 
@@ -208,11 +214,15 @@ The second wireframe is a slight modification of W1. The wireframe screens can b
     - Indicate whether the room allows price negotiation.
 - The user suggested exploring the idea of having reviews on rooms.
   </tab>
+  <tab header="Wireframe 2 - Figma File">
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5Lc3nKcD3GDYNlsQ7EaGUP%2FRooFind-W2%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+  </tab>
 </tabs>
 
-
 ## Interactive Prototypes
-With all the feedback collected, I have created a prototype of the application in Figma to put all the elements into place.
+With all the feedback collected for the wireframes, I moved on to create interactive prototypes in Figma.
+In total, I have created two prototypes of the application to put all the design elements into place.
 I have also made some noticeable modifications that I would like to highhlight.
 
 ### Shift in focus
@@ -220,6 +230,8 @@ Initially, I have included a set of screens that are meant for the housing agent
 the user who is looking for a room. However, some user intractions are still in place to make the user flow complete. This includes the following:
 - A user will be able to indiciate whether he/she is currently "looking for a room" or "renting a room". This will subsequently determine the application interface they see (which the housing agent/landlord view has been omitted).
 - A user will be able to chat with the housing agent/landlord.
+
+Along the same vein, I decided to remove the ability for users to browse the application without logging in. This is because I feel that the user flow gets confusing when the user who is not logged in tries to access the other screens of the application. Instead of the convenience of having an option to browse the rooms without login, I decided to keep the interface and user flow standard, and make it more useful for login users (ability to save and chat with the room owner).
 
 ### Updates in functionalities
 #### Comparison feature
@@ -247,7 +259,6 @@ For example, to allow users to easily save and chat, I have included the "heart"
 ### Prototype 1 & 2
 
 Prototype 1 is the first version of the interactive application. It addressed some of the points mentioned above and was then used for user testing.
-
 Prototype 2 is the final version of the interactive application. It covers additional points/improvements discovered during the testing of prototype 1.
 
 In addition, I have reviewed the Design principles (Shneiderman’s 8 Golden rules, in particualr) and make adjustments to the application to make it more user friendly. For example:
@@ -262,14 +273,23 @@ In addition, I have reviewed the Design principles (Shneiderman’s 8 Golden rul
 <tabs>
   <tab header="Prototype 1">
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FqWGltpJxENsU5GSw30wO0r%2FRooFind-P1%3Fpage-id%3D1%253A1250%26node-id%3D1%253A4546%26viewport%3D241%252C48%252C0.24%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A4546" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="450" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FqWGltpJxENsU5GSw30wO0r%2FRooFind-P1%3Fpage-id%3D1%253A1250%26node-id%3D1%253A4546%26viewport%3D241%252C48%252C0.24%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A4546" allowfullscreen></iframe>
 
   </tab>
-  <tab header="Prototype 2">
+  <tab header="Prototype 2(Final)">
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="450" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FzziC64max9cgoYneBy6LXy%2FRooFind-Final%3Fpage-id%3D1%253A1250%26node-id%3D1%253A4546%26viewport%3D241%252C48%252C0.24%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A4546" allowfullscreen></iframe>
+  </tab>
+
+  <tab header="Prototype 2(Final) - Figma File">
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FzziC64max9cgoYneBy6LXy%2FRooFind-Final%3Fnode-id%3D1%253A1250" allowfullscreen></iframe>
   </tab>
 </tabs>
 
 # Conclusion
+
+The complete interactive prototype is available [here](https://www.figma.com/proto/zziC64max9cgoYneBy6LXy/RooFind-Final?page-id=1%3A1250&node-id=1%3A4546&viewport=241%2C48%2C0.24&scaling=scale-down&starting-point-node-id=1%3A4546) (also embeded in the above second tab). The Figma design file is available [here](https://www.figma.com/file/zziC64max9cgoYneBy6LXy/RooFind-Final?node-id=1%3A1250).
 
 In summary, this exploratory design exercise has provided me with a good opportunity to practice interaction design.
 
